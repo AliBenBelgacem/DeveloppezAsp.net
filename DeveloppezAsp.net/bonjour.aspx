@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title><asp:Literal runat="server" Text="<%$ Resources:Resource1, titre_bonjour %>" /></title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            Bonjour le monde.
+           <asp:Label runat="server" Text="<%$ Resources:Resource1, libelle_bonjour_le_monde %>" />
         </div>
     </form>
 </body>
